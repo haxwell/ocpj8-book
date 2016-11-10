@@ -301,7 +301,7 @@
 
             <p>A consumer is an operation that accepts a single input argument and returns no result; it just executes some operations on the argument.</p>
 
-            <p>This how the interface is defined:</p>
+            <p>This is how the interface is defined:</p>
 
             <p><code class="java hljs"><span class="hljs-annotation">@FunctionalInterface</span><br />
 	  <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Consumer</span>&lt;<span class="hljs-title">T</span>&gt;</span> {<br />
@@ -387,7 +387,7 @@
 
             <p>A common use is to convert or transform from one object to another.</p>
 
-            <p>This how the interface is defined:</p>
+            <p>This is how the interface is defined:</p>
 
             <p><code class="java hljs"><span class="hljs-annotation">@FunctionalInterface</span><br />
 	  <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Function</span>&lt;<span class="hljs-title">T</span>, <span class="hljs-title">R</span>&gt;</span> {<br />
@@ -480,7 +480,7 @@
 
             <p>A supplier does the opposite of a consumer, it takes no arguments and only returns some value.</p>
 
-            <p>This how the interface is defined:</p>
+            <p>This is how the interface is defined:</p>
 
             <p><code class="java hljs"><span class="hljs-annotation">@FunctionalInterface</span><br />
 	  <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">Supplier</span>&lt;<span class="hljs-title">T</span>&gt;</span> {<br />
@@ -524,7 +524,7 @@
 
             <p><code>UnaryOperator</code> is just a specialization of the <code>Function</code> interface (in fact, this interface extends from it) for when the argument and the result are of the same type.</p>
 
-            <p>This how the interface is defined:</p>
+            <p>This is how the interface is defined:</p>
 
             <p><code class="java hljs"><span class="hljs-annotation">@FunctionalInterface</span><br />
 	  <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">UnaryOperator</span>&lt;<span class="hljs-title">T</span>&gt;<br />
@@ -604,7 +604,7 @@
 
             <p>This interface represents a predicate that takes two arguments.</p>
 
-            <p>This how the interface is defined:</p>
+            <p>This is how the interface is defined:</p>
 
             <p><code class="java hljs"><span class="hljs-annotation">@FunctionalInterface</span> <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">BiPredicate</span>&lt;<span class="hljs-title">T</span>, <span class="hljs-title">U</span>&gt;</span> {<br />
 	  &nbsp; &nbsp; &nbsp;<span class="hljs-function"><span class="hljs-keyword">boolean</span> <span class="hljs-title">test</span><span class="hljs-params">(T t, U u)</span></span>;<br />
@@ -645,7 +645,7 @@
 
             <p>This interface represents a consumer that takes two arguments (and doesn't return a result).</p>
 
-            <p>This how the interface is defined:</p>
+            <p>This is how the interface is defined:</p>
 
             <p><code class="java hljs"><span class="hljs-annotation">@FunctionalInterface</span><br />
 	  <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">BiConsumer</span>&lt;<span class="hljs-title">T</span>, <span class="hljs-title">U</span>&gt;</span> {<br />
@@ -723,7 +723,7 @@
 
             <p>This interface represents a function that takes two arguments of different type and produces a result of another type.</p>
 
-            <p>This how the interface is defined:</p>
+            <p>This is how the interface is defined:</p>
 
             <p><code class="java hljs"><span class="hljs-annotation">@FunctionalInterface</span><br />
 	  <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">BiFunction</span>&lt;<span class="hljs-title">T</span>, <span class="hljs-title">U</span>, <span class="hljs-title">R</span>&gt;</span> {<br />
@@ -776,7 +776,7 @@
 
             <p>This interface is a specialization of the <code>BiFunction</code> interface (in fact, this interface extends from it) for when the arguments and the result are of the same type.</p>
 
-            <p>This how the interface is defined:</p>
+            <p>This is how the interface is defined:</p>
 
             <p><code class="java hljs"><span class="hljs-annotation">@FunctionalInterface</span><br />
 	  <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">interface</span> <span class="hljs-title">BinaryOperator</span>&lt;<span class="hljs-title">T</span>&gt;<br />
